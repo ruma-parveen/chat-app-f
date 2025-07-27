@@ -1,10 +1,13 @@
-body {
+html,body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .JoinPage {
-    margin-top: 30vw !important;
+    height: 100vh !important;
     align-items: flex-start;
     justify-content: center;
   }
@@ -64,7 +67,7 @@ body {
 #chatInput{
     width: 80%  !important;
     padding: 4vw !important;
-    font-size: 3vw !important;
+    font-size: 4vw !important;
 }
 .messageBox{
     padding: 3vw !important;
