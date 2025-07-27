@@ -9,7 +9,7 @@ import closeIcon from "../../images/closeIcon.png";
 
 let socket;
 
-const ENDPOINT = process.env.PORT;
+const ENDPOINT = "https://chat-app-fbk4.onrender.com";
 
 const Chat = () => {
   const [id, setid] = useState("");
